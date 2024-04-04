@@ -102,7 +102,7 @@ main p {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -113,6 +113,10 @@ main p {
 .card {
   background-color: white;
   margin: 30px 0;
+}
+
+.card-header.grid {
+  grid-gap: 0;
 }
 
 .card-body {
@@ -143,10 +147,6 @@ main p {
   padding: 0 30px 30px;
 }
 
-.card-img {
-  max-width: 160px;
-}
-
 .btn {
   display: block;
   color: white;
@@ -159,6 +159,12 @@ main p {
   text-transform: uppercase;
   padding: 16px;
   text-decoration: none;
+}
+
+.embed {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
 }
 
 footer {
@@ -232,5 +238,13 @@ footer a {
 
   section {
     padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
