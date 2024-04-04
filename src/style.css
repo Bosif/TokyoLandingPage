@@ -167,6 +167,10 @@ main p {
   aspect-ratio: 1/1;
 }
 
+.intropic {
+  filter: grayscale(40%);
+}
+
 footer {
   color: white;
   background-image: linear-gradient(rgba(0, 13, 19, 0.7), rgba(0, 13, 19, 0.7)),
